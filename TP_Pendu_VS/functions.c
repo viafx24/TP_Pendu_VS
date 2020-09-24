@@ -30,7 +30,7 @@ int CompterMotFichier()
 
 	char chaine[TAILLE_MAX] = ""; // Chaîne vide de taille TAILLE_MAX
 
-	fichier = fopen("src/Dictionnaire_Pendu.txt", "r");
+	fichier = fopen("Dictionnaire_Pendu.txt", "r");
 
 	if (fichier != NULL)
 	{
@@ -64,7 +64,7 @@ void ChoisirMot(int RandomChooseMot)
 	char chaine[TAILLE_MAX] = ""; // Chaîne vide de taille TAILLE_MAX
 								  //char chaine;
 
-	fichier = fopen("src/Dictionnaire_Pendu.txt", "r");
+	fichier = fopen("Dictionnaire_Pendu.txt", "r");
 
 	if (fichier != NULL)
 	{
